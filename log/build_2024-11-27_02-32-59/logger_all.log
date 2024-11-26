@@ -1,0 +1,278 @@
+[0.118s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.119s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7aa6dd298350>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7aa6dd27bec0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7aa6dd27bec0>>, mixin_verb=('build',))
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.162s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nikunj/v2_tracking_ws'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracking) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracking) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracking) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracking) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracking) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracking) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracking) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracking) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ball_tracking' with type 'ros.ament_python' and name 'ball_tracking'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_input) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_input) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_input) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_input) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_input) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_input) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_input) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_input) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_input) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_input' with type 'ros.ament_python' and name 'camera_input'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_python' and name 'robot_description'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servo_control' with type 'ros.ament_python' and name 'servo_control'
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.225s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/nikunj/v2_tracking_ws/install
+[0.225s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/nikunj/ros2_ws/install
+[0.227s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 294 installed packages in /opt/ros/jazzy
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'ball_tracking' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'ball_tracking' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'ball_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'ball_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'ball_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'ball_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'ball_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'ball_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'ball_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'ball_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikunj/v2_tracking_ws/build/ball_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikunj/v2_tracking_ws/install/ball_tracking', 'merge_install': False, 'path': '/home/nikunj/v2_tracking_ws/src/ball_tracking', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'camera_input' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'camera_input' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'camera_input' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'camera_input' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'camera_input' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'camera_input' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'camera_input' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'camera_input' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'camera_input' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'camera_input' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikunj/v2_tracking_ws/build/camera_input', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikunj/v2_tracking_ws/install/camera_input', 'merge_install': False, 'path': '/home/nikunj/v2_tracking_ws/src/camera_input', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikunj/v2_tracking_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikunj/v2_tracking_ws/install/robot_description', 'merge_install': False, 'path': '/home/nikunj/v2_tracking_ws/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'servo_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikunj/v2_tracking_ws/build/servo_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikunj/v2_tracking_ws/install/servo_control', 'merge_install': False, 'path': '/home/nikunj/v2_tracking_ws/src/servo_control', 'symlink_install': False, 'test_result_base': None}
+[0.271s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.272s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nikunj/v2_tracking_ws/src/ball_tracking' with build type 'ament_python'
+[0.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracking', 'ament_prefix_path')
+[0.274s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/ball_tracking/share/ball_tracking/hook/ament_prefix_path.ps1'
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikunj/v2_tracking_ws/install/ball_tracking/share/ball_tracking/hook/ament_prefix_path.dsv'
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/ball_tracking/share/ball_tracking/hook/ament_prefix_path.sh'
+[0.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.280s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nikunj/v2_tracking_ws/src/camera_input' with build type 'ament_python'
+[0.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_input', 'ament_prefix_path')
+[0.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/camera_input/share/camera_input/hook/ament_prefix_path.ps1'
+[0.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikunj/v2_tracking_ws/install/camera_input/share/camera_input/hook/ament_prefix_path.dsv'
+[0.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/camera_input/share/camera_input/hook/ament_prefix_path.sh'
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nikunj/v2_tracking_ws/src/robot_description' with build type 'ament_python'
+[0.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'ament_prefix_path')
+[0.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/robot_description/share/robot_description/hook/ament_prefix_path.ps1'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikunj/v2_tracking_ws/install/robot_description/share/robot_description/hook/ament_prefix_path.dsv'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/robot_description/share/robot_description/hook/ament_prefix_path.sh'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.291s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nikunj/v2_tracking_ws/src/servo_control' with build type 'ament_python'
+[0.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'ament_prefix_path')
+[0.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/servo_control/share/servo_control/hook/ament_prefix_path.ps1'
+[0.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikunj/v2_tracking_ws/install/servo_control/share/servo_control/hook/ament_prefix_path.dsv'
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/servo_control/share/servo_control/hook/ament_prefix_path.sh'
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.532s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nikunj/v2_tracking_ws/src/ball_tracking'
+[0.533s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.774s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nikunj/v2_tracking_ws/src/camera_input'
+[0.775s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.039s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nikunj/v2_tracking_ws/src/robot_description'
+[1.039s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.039s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.284s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nikunj/v2_tracking_ws/src/servo_control'
+[1.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikunj/v2_tracking_ws/src/ball_tracking': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nikunj/v2_tracking_ws/build/ball_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikunj/v2_tracking_ws/install/ball_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ball_tracking build --build-base /home/nikunj/v2_tracking_ws/build/ball_tracking/build install --record /home/nikunj/v2_tracking_ws/build/ball_tracking/install.log --single-version-externally-managed install_data
+[1.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikunj/v2_tracking_ws/src/robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nikunj/v2_tracking_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikunj/v2_tracking_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/nikunj/v2_tracking_ws/build/robot_description/build install --record /home/nikunj/v2_tracking_ws/build/robot_description/install.log --single-version-externally-managed install_data
+[1.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikunj/v2_tracking_ws/src/servo_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nikunj/v2_tracking_ws/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikunj/v2_tracking_ws/install/servo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/servo_control build --build-base /home/nikunj/v2_tracking_ws/build/servo_control/build install --record /home/nikunj/v2_tracking_ws/build/servo_control/install.log --single-version-externally-managed install_data
+[1.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikunj/v2_tracking_ws/src/camera_input': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nikunj/v2_tracking_ws/build/camera_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikunj/v2_tracking_ws/install/camera_input/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_input build --build-base /home/nikunj/v2_tracking_ws/build/camera_input/build install --record /home/nikunj/v2_tracking_ws/build/camera_input/install.log --single-version-externally-managed install_data
+[2.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikunj/v2_tracking_ws/src/ball_tracking' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nikunj/v2_tracking_ws/build/ball_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikunj/v2_tracking_ws/install/ball_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ball_tracking build --build-base /home/nikunj/v2_tracking_ws/build/ball_tracking/build install --record /home/nikunj/v2_tracking_ws/build/ball_tracking/install.log --single-version-externally-managed install_data
+[2.504s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/ball_tracking' for CMake module files
+[2.504s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/ball_tracking' for CMake config files
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/ball_tracking/lib'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/ball_tracking/bin'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/ball_tracking/lib/pkgconfig/ball_tracking.pc'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/ball_tracking/lib/python3.12/site-packages'
+[2.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracking', 'pythonpath')
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/ball_tracking/share/ball_tracking/hook/pythonpath.ps1'
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikunj/v2_tracking_ws/install/ball_tracking/share/ball_tracking/hook/pythonpath.dsv'
+[2.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/ball_tracking/share/ball_tracking/hook/pythonpath.sh'
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/ball_tracking/bin'
+[2.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ball_tracking)
+[2.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/ball_tracking/share/ball_tracking/package.ps1'
+[2.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikunj/v2_tracking_ws/install/ball_tracking/share/ball_tracking/package.dsv'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/ball_tracking/share/ball_tracking/package.sh'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/ball_tracking/share/ball_tracking/package.bash'
+[2.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/ball_tracking/share/ball_tracking/package.zsh'
+[2.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikunj/v2_tracking_ws/install/ball_tracking/share/colcon-core/packages/ball_tracking)
+[2.513s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/servo_control' for CMake module files
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/servo_control' for CMake config files
+[2.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikunj/v2_tracking_ws/src/servo_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nikunj/v2_tracking_ws/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikunj/v2_tracking_ws/install/servo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/servo_control build --build-base /home/nikunj/v2_tracking_ws/build/servo_control/build install --record /home/nikunj/v2_tracking_ws/build/servo_control/install.log --single-version-externally-managed install_data
+[2.515s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/servo_control/lib'
+[2.515s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/servo_control/bin'
+[2.515s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/servo_control/lib/pkgconfig/servo_control.pc'
+[2.515s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/servo_control/lib/python3.12/site-packages'
+[2.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'pythonpath')
+[2.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/servo_control/share/servo_control/hook/pythonpath.ps1'
+[2.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikunj/v2_tracking_ws/install/servo_control/share/servo_control/hook/pythonpath.dsv'
+[2.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/servo_control/share/servo_control/hook/pythonpath.sh'
+[2.517s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/servo_control/bin'
+[2.517s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_control)
+[2.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/servo_control/share/servo_control/package.ps1'
+[2.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikunj/v2_tracking_ws/install/servo_control/share/servo_control/package.dsv'
+[2.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/servo_control/share/servo_control/package.sh'
+[2.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/servo_control/share/servo_control/package.bash'
+[2.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/servo_control/share/servo_control/package.zsh'
+[2.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikunj/v2_tracking_ws/install/servo_control/share/colcon-core/packages/servo_control)
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/robot_description' for CMake module files
+[2.521s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/robot_description' for CMake config files
+[2.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikunj/v2_tracking_ws/src/robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nikunj/v2_tracking_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikunj/v2_tracking_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/nikunj/v2_tracking_ws/build/robot_description/build install --record /home/nikunj/v2_tracking_ws/build/robot_description/install.log --single-version-externally-managed install_data
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/robot_description/lib'
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/robot_description/bin'
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/robot_description/lib/python3.12/site-packages'
+[2.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'pythonpath')
+[2.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/robot_description/share/robot_description/hook/pythonpath.ps1'
+[2.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikunj/v2_tracking_ws/install/robot_description/share/robot_description/hook/pythonpath.dsv'
+[2.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/robot_description/share/robot_description/hook/pythonpath.sh'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/robot_description/bin'
+[2.524s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[2.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/robot_description/share/robot_description/package.ps1'
+[2.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikunj/v2_tracking_ws/install/robot_description/share/robot_description/package.dsv'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/robot_description/share/robot_description/package.sh'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/robot_description/share/robot_description/package.bash'
+[2.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/robot_description/share/robot_description/package.zsh'
+[2.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikunj/v2_tracking_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[2.529s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/camera_input' for CMake module files
+[2.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikunj/v2_tracking_ws/src/camera_input' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nikunj/v2_tracking_ws/build/camera_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikunj/v2_tracking_ws/install/camera_input/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_input build --build-base /home/nikunj/v2_tracking_ws/build/camera_input/build install --record /home/nikunj/v2_tracking_ws/build/camera_input/install.log --single-version-externally-managed install_data
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/camera_input' for CMake config files
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/camera_input/lib'
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/camera_input/bin'
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/camera_input/lib/pkgconfig/camera_input.pc'
+[2.532s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/camera_input/lib/python3.12/site-packages'
+[2.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_input', 'pythonpath')
+[2.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/camera_input/share/camera_input/hook/pythonpath.ps1'
+[2.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikunj/v2_tracking_ws/install/camera_input/share/camera_input/hook/pythonpath.dsv'
+[2.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikunj/v2_tracking_ws/install/camera_input/share/camera_input/hook/pythonpath.sh'
+[2.534s] Level 1:colcon.colcon_core.environment:checking '/home/nikunj/v2_tracking_ws/install/camera_input/bin'
+[2.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_input)
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/camera_input/share/camera_input/package.ps1'
+[2.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikunj/v2_tracking_ws/install/camera_input/share/camera_input/package.dsv'
+[2.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/camera_input/share/camera_input/package.sh'
+[2.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/camera_input/share/camera_input/package.bash'
+[2.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikunj/v2_tracking_ws/install/camera_input/share/camera_input/package.zsh'
+[2.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikunj/v2_tracking_ws/install/camera_input/share/colcon-core/packages/camera_input)
+[2.539s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.540s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.548s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.567s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.568s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikunj/v2_tracking_ws/install/local_setup.ps1'
+[2.569s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nikunj/v2_tracking_ws/install/_local_setup_util_ps1.py'
+[2.570s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikunj/v2_tracking_ws/install/setup.ps1'
+[2.571s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikunj/v2_tracking_ws/install/local_setup.sh'
+[2.571s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nikunj/v2_tracking_ws/install/_local_setup_util_sh.py'
+[2.572s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikunj/v2_tracking_ws/install/setup.sh'
+[2.573s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikunj/v2_tracking_ws/install/local_setup.bash'
+[2.574s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikunj/v2_tracking_ws/install/setup.bash'
+[2.575s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikunj/v2_tracking_ws/install/local_setup.zsh'
+[2.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikunj/v2_tracking_ws/install/setup.zsh'

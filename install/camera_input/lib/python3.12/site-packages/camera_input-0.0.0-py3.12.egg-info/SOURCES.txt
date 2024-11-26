@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/camera_input/camera_input.egg-info/PKG-INFO
+../../build/camera_input/camera_input.egg-info/SOURCES.txt
+../../build/camera_input/camera_input.egg-info/dependency_links.txt
+../../build/camera_input/camera_input.egg-info/requires.txt
+../../build/camera_input/camera_input.egg-info/top_level.txt
+../../build/camera_input/camera_input.egg-info/zip-safe
+camera_input/__init__.py
+resource/camera_input
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

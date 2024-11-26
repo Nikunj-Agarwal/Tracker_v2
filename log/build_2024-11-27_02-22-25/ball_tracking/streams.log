@@ -1,0 +1,19 @@
+[1.686s] Invoking command in '/home/nikunj/v2_tracking_ws/src/ball_tracking': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nikunj/v2_tracking_ws/build/ball_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikunj/v2_tracking_ws/install/ball_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ball_tracking build --build-base /home/nikunj/v2_tracking_ws/build/ball_tracking/build install --record /home/nikunj/v2_tracking_ws/build/ball_tracking/install.log --single-version-externally-managed install_data
+[2.010s] running egg_info
+[2.031s] writing ../../build/ball_tracking/ball_tracking.egg-info/PKG-INFO
+[2.031s] writing dependency_links to ../../build/ball_tracking/ball_tracking.egg-info/dependency_links.txt
+[2.031s] writing requirements to ../../build/ball_tracking/ball_tracking.egg-info/requires.txt
+[2.031s] writing top-level names to ../../build/ball_tracking/ball_tracking.egg-info/top_level.txt
+[2.075s] reading manifest file '../../build/ball_tracking/ball_tracking.egg-info/SOURCES.txt'
+[2.076s] writing manifest file '../../build/ball_tracking/ball_tracking.egg-info/SOURCES.txt'
+[2.076s] running build
+[2.076s] running build_py
+[2.077s] running install
+[2.084s] running install_lib
+[2.104s] running install_data
+[2.104s] running install_egg_info
+[2.125s] removing '/home/nikunj/v2_tracking_ws/install/ball_tracking/lib/python3.12/site-packages/ball_tracking-0.0.0-py3.12.egg-info' (and everything under it)
+[2.126s] Copying ../../build/ball_tracking/ball_tracking.egg-info to /home/nikunj/v2_tracking_ws/install/ball_tracking/lib/python3.12/site-packages/ball_tracking-0.0.0-py3.12.egg-info
+[2.126s] running install_scripts
+[2.265s] writing list of installed files to '/home/nikunj/v2_tracking_ws/build/ball_tracking/install.log'
+[2.298s] Invoked command in '/home/nikunj/v2_tracking_ws/src/ball_tracking' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nikunj/v2_tracking_ws/build/ball_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikunj/v2_tracking_ws/install/ball_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ball_tracking build --build-base /home/nikunj/v2_tracking_ws/build/ball_tracking/build install --record /home/nikunj/v2_tracking_ws/build/ball_tracking/install.log --single-version-externally-managed install_data

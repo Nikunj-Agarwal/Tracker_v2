@@ -1,0 +1,32 @@
+[1.675s] Invoking command in '/home/nikunj/v2_tracking_ws/src/robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nikunj/v2_tracking_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikunj/v2_tracking_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/nikunj/v2_tracking_ws/build/robot_description/build install --record /home/nikunj/v2_tracking_ws/build/robot_description/install.log --single-version-externally-managed install_data
+[1.960s] running egg_info
+[1.961s] creating ../../build/robot_description/robot_description.egg-info
+[1.980s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[1.980s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[1.980s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[1.980s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[1.980s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[2.019s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[2.020s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[2.020s] running build
+[2.020s] running build_py
+[2.020s] creating /home/nikunj/v2_tracking_ws/build/robot_description/build
+[2.020s] creating /home/nikunj/v2_tracking_ws/build/robot_description/build/lib
+[2.021s] creating /home/nikunj/v2_tracking_ws/build/robot_description/build/lib/robot_description
+[2.021s] copying robot_description/__init__.py -> /home/nikunj/v2_tracking_ws/build/robot_description/build/lib/robot_description
+[2.021s] running install
+[2.028s] running install_lib
+[2.047s] creating /home/nikunj/v2_tracking_ws/install/robot_description/lib/python3.12/site-packages/robot_description
+[2.047s] copying /home/nikunj/v2_tracking_ws/build/robot_description/build/lib/robot_description/__init__.py -> /home/nikunj/v2_tracking_ws/install/robot_description/lib/python3.12/site-packages/robot_description
+[2.048s] byte-compiling /home/nikunj/v2_tracking_ws/install/robot_description/lib/python3.12/site-packages/robot_description/__init__.py to __init__.cpython-312.pyc
+[2.048s] running install_data
+[2.048s] creating /home/nikunj/v2_tracking_ws/install/robot_description/share/ament_index
+[2.048s] creating /home/nikunj/v2_tracking_ws/install/robot_description/share/ament_index/resource_index
+[2.048s] creating /home/nikunj/v2_tracking_ws/install/robot_description/share/ament_index/resource_index/packages
+[2.049s] copying resource/robot_description -> /home/nikunj/v2_tracking_ws/install/robot_description/share/ament_index/resource_index/packages
+[2.049s] copying package.xml -> /home/nikunj/v2_tracking_ws/install/robot_description/share/robot_description
+[2.049s] running install_egg_info
+[2.069s] Copying ../../build/robot_description/robot_description.egg-info to /home/nikunj/v2_tracking_ws/install/robot_description/lib/python3.12/site-packages/robot_description-0.0.0-py3.12.egg-info
+[2.070s] running install_scripts
+[2.206s] writing list of installed files to '/home/nikunj/v2_tracking_ws/build/robot_description/install.log'
+[2.239s] Invoked command in '/home/nikunj/v2_tracking_ws/src/robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nikunj/v2_tracking_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikunj/v2_tracking_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/nikunj/v2_tracking_ws/build/robot_description/build install --record /home/nikunj/v2_tracking_ws/build/robot_description/install.log --single-version-externally-managed install_data
